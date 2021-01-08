@@ -3,7 +3,7 @@
 	import Hydrops from "./content/Hydrops.svx";
 	import HeartAndBrain from "./content/HeartAndBrain.svx";
 	import IUERTtrial from "./content/IUERTtrial.svx";
-	import Exome from "./content/Exome.svx";
+	import Exome from "./content/Exome.md";
 	import Section from "./components/Section.svelte";
 	import Main from "./components/Main.svelte";
 	import Footer from "./components/Footer.svelte";

@@ -43,8 +43,10 @@ export default {
 				// enable run-time checks when not in production
 				dev: !production
 			},
-			extensions: [".svelte", ".svx"],
-			preprocess: mdsvex()
+			extensions: [".svelte", ".svx", ".md"],
+			preprocess: mdsvex({
+				extensions: [ ".svx", ".md"]
+			})
 		}),
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
