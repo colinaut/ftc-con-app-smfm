@@ -1,4 +1,8 @@
-# Exome
+---
+title: Fetal Exome
+---
+
+# {title}
 
 ![Fetal Exome](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/styles/flexslider_full/public/field/image/slider/FTC-exome_0.jpg)
 

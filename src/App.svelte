@@ -1,8 +1,8 @@
 <script>
 	import Header from "./components/Header.svelte";
-	import Hydrops from "./content/Hydrops.svx";
-	import HeartAndBrain from "./content/HeartAndBrain.svx";
-	import IUERTtrial from "./content/IUERTtrial.svx";
+	import Hydrops from "./content/Hydrops.md";
+	import HeartAndBrain from "./content/HeartAndBrain.md";
+	import IUERTtrial from "./content/IUERTtrial.md";
 	import Exome from "./content/Exome.md";
 	import Section from "./components/Section.svelte";
 	import Main from "./components/Main.svelte";
