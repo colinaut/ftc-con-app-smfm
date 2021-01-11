@@ -40,12 +40,17 @@
 	subtitle="Lorem ipsum dolor sit amet consectetur"
 	src="https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/anita-and-patient-ultrasound.jpg"
 	alt="Dr. Anita Moon Grady and patient" />
+<!-- TODO: add row of cards that acts like a tabed nav featuring the content of 4 research areas which fill in below. this area is sticky so remains a nav when you scroll lower. Use scroll snap to have the top of this a snap section. Use FLIP animation to enlarge the card for the tab? -->
 
 <Main>
 	{#each research as section}
 		<Section>
 			<svelte:component this={section.component} />
-			<Button url={section.btnurl} text={section.btntext} />
+			<Button
+				on:click={(e) => console.log(e.detail.text)}
+				url={section.btnurl}>
+				{section.btntext}
+			</Button>
 		</Section>
 	{/each}
 </Main>
