@@ -3,10 +3,6 @@
 </script>
 
 <style>
-    section {
-        /* background: var(--lighter-gray); */
-    }
-
     img {
         object-fit: cover;
         object-position: 50% 50%;
@@ -31,22 +27,18 @@
         bottom: 0;
         left: 0;
     }
+
     img {
         width: 100%;
         height: 100%;
     }
 
-    .hero {
-        --hero-p: var(--space-xl);
-        --hero-title: var(--text-hero);
-        --hero-sub: var(--text-md);
-    }
-
     .hero-content {
         background-image: linear-gradient(
             to top,
-            #052049,
-            transparent 50%,
+            rgba(5, 32, 73, 1),
+            rgba(5, 32, 73, 0.4) 50%,
+            transparent 75%,
             transparent
         );
         position: absolute;
@@ -58,33 +50,44 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        padding: var(--hero-p);
+        padding: var(--space-md);
         color: #fff;
     }
     .hero-title {
-        margin: 0 20% 1rem 0;
+        margin: 0 20% var(--space-sm) 0;
         font-weight: bold;
-        font-size: var(--hero-title);
+        font-size: var(--text-md);
         line-height: var(--leading-tight);
+        text-shadow: 0 1px 5px rgba(5, 32, 73, 0.5);
     }
     .hero-subtitle {
-        font-size: var(--hero-sub);
+        font-size: var(--text-sm);
         line-height: 20px;
         letter-spacing: 1.6px;
         font-weight: 400;
     }
-    @media (max-width: 768px) {
-        .hero {
-            --hero-p: var(--space-lg);
-            --hero-title: var(--text-xxxl);
-            --hero-sub: var(--text-base);
+    @media (min-width: 576px) {
+        .hero-title {
+            font-size: var(--text-xxl);
+            margin-bottom: var(--space-md);
+        }
+        .hero-subtitle {
+            font-size: var(--text-md);
+        }
+        .hero-content {
+            padding: var(--space-lg);
         }
     }
-    @media (max-width: 576px) {
-        .hero {
-            --hero-p: var(--space-md);
-            --hero-title: var(--text-xl);
-            --hero-sub: var(--text-base);
+    @media (min-width: 768px) {
+        .hero-title {
+            font-size: var(--text-xxxxl);
+            margin-bottom: var(--space-lg);
+        }
+        .hero-subtitle {
+            font-size: var(--text-lg);
+        }
+        .hero-content {
+            padding: var(--space-xl);
         }
     }
 </style>
@@ -95,7 +98,9 @@
             <div class="hero-image"><img {src} {alt} /></div>
             <div class="hero-content">
                 <h1 class="hero-title">{title}</h1>
-                <div class="hero-subtitle">{subtitle}</div>
+                {#if subtitle}
+                    <div class="hero-subtitle">{subtitle}</div>
+                {/if}
             </div>
         </div>
     </div>

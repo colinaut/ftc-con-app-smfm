@@ -4,12 +4,13 @@
 	import Hydrops from "./content/Hydrops.md";
 	import HeartAndBrain from "./content/HeartAndBrain.md";
 	import IUERTtrial from "./content/IUERTtrial.md";
+	import ATM from "./content/ATM.md";
 	import Exome from "./content/Exome.md";
 	import Section from "./components/Section.svelte";
 	import Main from "./components/Main.svelte";
 	import Footer from "./components/Footer.svelte";
 	import Hero from "./components/Hero.svelte";
-	import Button from "./components/Button.svelte";
+	// import Button from "./components/Button.svelte";
 	import CardNav from "./components/CardNav.svelte";
 
 	let research = [
@@ -17,6 +18,7 @@
 			id: 1,
 			component: Hydrops,
 			title: "Fetal Hydrops",
+			imgSrc: "images/hydrops-image.jpg",
 			btnurl: "https://fetus.ucsf.edu/hydrops-study",
 			btntext: "Learn More",
 			active: false,
@@ -24,16 +26,19 @@
 		{
 			id: 2,
 			component: Exome,
-			title: "Fetal Exome",
+			title: "Fetal Exome Sequencing",
+			imgSrc: "images/FTC-exome.jpg",
 			btnurl: "https://fetus.ucsf.edu/research/fetal-exome-sequencing",
 			btntext: "Learn More",
 			active: false,
 		},
 		{
 			id: 3,
-			component: IUERTtrial,
-			title: "In Utero Enzyme Replacement Therapy",
-			btnurl: "https://fetus.ucsf.edu/utero-enzyme-replacement-therapy",
+			component: ATM,
+			title: "Intrauterine Therapy for ATM",
+			imgSrc: "images/atm.png",
+			btnurl:
+				"https://fetus.ucsf.edu/research/intrauterine-therapy-alpha-thalassemia-major",
 			btntext: "Learn More",
 			active: false,
 		},
@@ -41,7 +46,17 @@
 			id: 4,
 			component: HeartAndBrain,
 			title: "Fetal Heart & Brain",
+			imgSrc: "images/brain.jpg",
 			btnurl: "https://fetus.ucsf.edu/research/fetal-heart-brain-study",
+			btntext: "Learn More",
+			active: false,
+		},
+		{
+			id: 5,
+			component: IUERTtrial,
+			title: "In Utero Enzyme Replacement Therapy",
+			imgSrc: "images/lab.jpg",
+			btnurl: "https://fetus.ucsf.edu/utero-enzyme-replacement-therapy",
 			btntext: "Learn More",
 			active: false,
 		},
@@ -49,7 +64,6 @@
 
 	let activeId = false;
 	let hero = true;
-	let footerCollapse = false;
 
 	$: activeResearch = research.filter(
 		(section) => section.id === activeId
@@ -59,7 +73,6 @@
 
 	const logoClick = (e) => {
 		hero = true;
-		footerCollapse = false;
 		activeId = false;
 	};
 
@@ -67,11 +80,9 @@
 		const id = e.detail.id;
 		if (activeId !== false && activeId === id) {
 			hero = true;
-			footerCollapse = false;
 			activeId = false;
 		} else {
 			hero = false;
-			footerCollapse = true;
 			activeId = e.detail.id;
 			research = research.map((section) => {
 				if (section.id === activeId) {
@@ -98,8 +109,7 @@
 {#if hero}
 	<div in:slide={{ duration: 2000 }} out:slide={{ duration: 2000 }}>
 		<Hero
-			title="Next Generation Fetal Diagnosis & Treatment"
-			subtitle="Lorem ipsum dolor sit amet consectetur"
+			title="Leaders in genomics and precision-based in utero diagnosis and care"
 			src="https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/anita-and-patient-ultrasound.jpg"
 			alt="Dr. Anita Moon Grady and patient" />
 	</div>
@@ -114,11 +124,11 @@
 			<Main>
 				<Section>
 					<svelte:component this={activeResearch.component} />
-					<Button
+					<!-- <Button
 						on:click={(e) => console.log(e.detail.text)}
 						url={activeResearch.btnurl}>
 						{activeResearch.btntext}
-					</Button>
+					</Button> -->
 				</Section>
 			</Main>
 		</div>

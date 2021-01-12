@@ -6,9 +6,9 @@
     import Address from "./Address.svelte";
     import Button from "./Button.svelte";
 
-    let collapsed = false;
+    let collapsed = true;
 
-    $: collapserBtnText = collapsed ? "Contact Us" : "Close Footer";
+    $: collapserBtnText = collapsed ? "Contact Us" : "Close";
 
     const toggleFooter = () => {
         collapsed = !collapsed;

@@ -5,12 +5,13 @@
 
 <style>
     .wrapper {
-        /* background: var(--lighter-gray); */
         position: sticky;
         top: 0px;
     }
+
     nav {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         justify-content: space-between;
         gap: 4px;
         margin: 0 auto;
@@ -18,6 +19,18 @@
         z-index: var(--z-nav);
         border-top: 4px solid var(--white);
         border-bottom: 4px solid var(--white);
+    }
+
+    @media (min-width: 576px) {
+        nav {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+    @media (min-width: 768px) {
+        nav {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
     }
 </style>
 
