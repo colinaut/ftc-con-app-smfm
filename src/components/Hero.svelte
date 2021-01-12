@@ -4,7 +4,7 @@
 
 <style>
     section {
-        background: var(--lighter-gray);
+        /* background: var(--lighter-gray); */
     }
 
     img {

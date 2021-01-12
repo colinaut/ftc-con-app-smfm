@@ -15,29 +15,43 @@
             text: "Youtube",
         },
     ];
+
+    export let collapse = false;
+
+    // TODO: create event that turns on/off collapse state
 </script>
 
 <style>
     footer {
         background: var(--navy);
         color: var(--white);
+        width: 100%;
+        position: relative;
+        z-index: 1000;
+        position: fixed;
+        bottom: 0px;
+    }
+    .collapse {
+        position: fixed;
+        bottom: 0px;
     }
     .inner {
         display: flex;
-        justify-content: space-around;
-        gap: var(--space-xl);
-        padding: var(--space-xl) var(--space-md);
+        justify-content: space-between;
+        flex-direction: column;
+        gap: var(--space-sm);
+        padding: var(--space-md);
     }
-    @media (max-width: 576px) {
+    @media (min-width: 576px) {
         .inner {
-            flex-direction: column;
-            gap: var(--space-sm);
-            padding: var(--space-md) var(--space-md);
+            flex-direction: row;
+            gap: var(--space-lg);
+            padding: var(--space-lg) var(--space-xl);
         }
     }
 </style>
 
-<footer>
+<footer class:collapse>
     <div class="max-hero-width inner">
         <Address
             header="UCSF Fetal Treatment Center"
@@ -47,7 +61,8 @@
             state="CA"
             zip="94158-2549"
             phone="1-800-RX-FETUS (1-800-793-3887)"
-            fax="415-502-0660" />
+            fax="415-502-0660"
+            {collapse} />
         <Address
             header="UCSF Fetal Treatment Center"
             subhead="Oakland"
@@ -56,7 +71,8 @@
             state="CA"
             zip="94609"
             phone="(510) 428-3156; opt #1"
-            fax="415-502-0660" />
-        <Social {socials} />
+            fax="415-502-0660"
+            {collapse} />
+        <Social {socials} {collapse} />
     </div>
 </footer>

@@ -1,6 +1,16 @@
 <script>
     import Logo from "./Logo.svelte";
     export let title;
+
+    import { createEventDispatcher } from "svelte";
+
+    const dispatch = createEventDispatcher();
+
+    const click = () => {
+        dispatch("click", {
+            logoClick: true,
+        });
+    };
 </script>
 
 <style>
@@ -20,6 +30,7 @@
     .branding {
         align-self: center;
         padding: var(--space-lg) 0;
+        cursor: pointer;
     }
     @media (max-width: 576px) {
         h1 {
@@ -29,7 +40,7 @@
 </style>
 
 <header class="max-hero-width">
-    <div class="branding">
+    <div class="branding" on:click={click}>
         <Logo />
     </div>
     <h1>{title}</h1>

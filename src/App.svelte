@@ -1,4 +1,5 @@
 <script>
+	import { slide } from "svelte/transition";
 	import Header from "./components/Header.svelte";
 	import Hydrops from "./content/Hydrops.md";
 	import HeartAndBrain from "./content/HeartAndBrain.md";
@@ -46,7 +47,9 @@
 		},
 	];
 
-	let activeId = 1;
+	let activeId = false;
+	let hero = true;
+	let footerCollapse = false;
 
 	$: activeResearch = research.filter(
 		(section) => section.id === activeId
@@ -54,7 +57,15 @@
 
 	console.log(activeResearch);
 
+	const logoClick = (e) => {
+		hero = true;
+		footerCollapse = false;
+		activeId = false;
+	};
+
 	const navClick = (e) => {
+		hero = false;
+		footerCollapse = true;
 		activeId = e.detail.id;
 		research = research.map((section) => {
 			if (section.id === activeId) {
@@ -63,25 +74,44 @@
 			return { ...section, active: false };
 		});
 	};
+	// TODO: make navCLick also scroll back to top
 </script>
 
-<Header title="SMFM 41st Annual Pregnancy Meeting" />
-<Hero
-	title="Next Generation Fetal Diagnosis & Treatment"
-	subtitle="Lorem ipsum dolor sit amet consectetur"
-	src="https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/anita-and-patient-ultrasound.jpg"
-	alt="Dr. Anita Moon Grady and patient" />
-<CardNav cards={research} {activeId} on:click={navClick} />
-<Main>
+<style>
+	.content,
+	.section {
+		background: var(--white);
+	}
+</style>
+
+<Header title="SMFM 41st Annual Pregnancy Meeting" on:click={logoClick} />
+{#if hero}
+	<div in:slide={{ duration: 2000 }} out:slide={{ duration: 2000 }}>
+		<Hero
+			title="Next Generation Fetal Diagnosis & Treatment"
+			subtitle="Lorem ipsum dolor sit amet consectetur"
+			src="https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/anita-and-patient-ultrasound.jpg"
+			alt="Dr. Anita Moon Grady and patient" />
+	</div>
+{/if}
+<div class="content">
+	<CardNav cards={research} {activeId} on:click={navClick} />
 	{#if activeResearch}
-		<Section>
-			<svelte:component this={activeResearch.component} />
-			<Button
-				on:click={(e) => console.log(e.detail.text)}
-				url={activeResearch.btnurl}>
-				{activeResearch.btntext}
-			</Button>
-		</Section>
+		<div
+			class="section"
+			in:slide={{ duration: 2000 }}
+			out:slide={{ duration: 2000 }}>
+			<Main>
+				<Section>
+					<svelte:component this={activeResearch.component} />
+					<Button
+						on:click={(e) => console.log(e.detail.text)}
+						url={activeResearch.btnurl}>
+						{activeResearch.btntext}
+					</Button>
+				</Section>
+			</Main>
+		</div>
 	{/if}
-</Main>
-<Footer />
+</div>
+<Footer collapse={footerCollapse} />

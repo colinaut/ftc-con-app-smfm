@@ -37,7 +37,7 @@
         height: 30%;
         align-self: end;
         position: relative;
-        z-index: 2;
+        z-index: calc(var(--z-nav) + 2);
         background: rgba(255, 255, 255, 0.7);
         text-shadow: 0 1px 5px rgba(255, 255, 255, 0.5);
     }
@@ -47,6 +47,7 @@
         position: relative;
         filter: none;
         transition: filter 400ms;
+        z-index: calc(var(--z-nav) + 1);
     }
 </style>
 
