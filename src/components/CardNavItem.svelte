@@ -21,36 +21,37 @@
 
 <style>
     div {
+        flex: 1 0 100%;
         display: grid;
         grid-template-areas: "block";
         text-align: center;
         cursor: pointer;
         background: var(--navy);
+        border-bottom: 4px solid var(--white);
     }
 
-    .active img {
-        filter: grayscale(0);
-        opacity: 1;
+    div:last-child {
+        border-right: 0;
     }
 
     h2 {
-        font-size: var(--text-base);
+        font-size: var(--text-sm);
         grid-area: block;
         padding: var(--space-md);
         line-height: var(--leading-tight);
-        height: 50%;
-        min-height: 4rem;
+        height: 2rem;
         align-self: end;
         margin: 0;
         z-index: calc(var(--z-nav) + 2);
         background: rgba(255, 255, 255, 0.7);
-        text-shadow: 0 1px 5px rgba(255, 255, 255, 0.6);
+        text-shadow: 0 1px 5px rgba(255, 255, 255, 0.4);
+        transition: all 400ms;
     }
 
     img {
         grid-area: block;
         width: 100%;
-        height: 5rem;
+        height: 2rem;
         position: relative;
         filter: none;
         transition: filter 400ms, opacity 400ms;
@@ -58,6 +59,17 @@
         object-fit: cover;
         filter: grayscale(0.8);
         opacity: 0.3;
+    }
+
+    .active img {
+        filter: grayscale(0);
+        opacity: 1;
+    }
+
+    .active h2 {
+        background: var(--navy);
+        color: var(--white);
+        text-shadow: 0 1px 5px var(--navy);
     }
 
     @media (hover: hover) {
@@ -68,19 +80,27 @@
     }
 
     @media (min-width: 576px) {
+        div {
+            flex-basis: 33.333%;
+        }
         img {
-            height: 8rem;
+            height: 6rem;
         }
         h2 {
+            height: 3.5rem;
             font-size: var(--text-md);
         }
     }
 
     @media (min-width: 768px) {
+        div {
+            flex-basis: 20%;
+        }
         img {
             height: 12rem;
         }
         h2 {
+            height: 5.5rem;
             font-size: var(--text-base);
         }
     }

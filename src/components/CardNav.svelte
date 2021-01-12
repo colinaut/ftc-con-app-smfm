@@ -10,10 +10,12 @@
     }
 
     nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr; */
+        /* gap: 4px; */
         justify-content: space-between;
-        gap: 4px;
         margin: 0 auto;
         background: var(--white);
         z-index: var(--z-nav);
