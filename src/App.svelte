@@ -9,29 +9,60 @@
 	import Footer from "./components/Footer.svelte";
 	import Hero from "./components/Hero.svelte";
 	import Button from "./components/Button.svelte";
+	import CardNav from "./components/CardNav.svelte";
 
-	const research = [
+	let research = [
 		{
+			id: 1,
 			component: Hydrops,
+			title: "Fetal Hydrops",
 			btnurl: "https://fetus.ucsf.edu/hydrops-study",
 			btntext: "Learn More",
+			active: false,
 		},
 		{
+			id: 2,
 			component: Exome,
+			title: "Fetal Exome",
 			btnurl: "https://fetus.ucsf.edu/research/fetal-exome-sequencing",
 			btntext: "Learn More",
+			active: false,
 		},
 		{
+			id: 3,
 			component: IUERTtrial,
+			title: "In Utero Enzyme Replacement Therapy",
 			btnurl: "https://fetus.ucsf.edu/utero-enzyme-replacement-therapy",
 			btntext: "Learn More",
+			active: false,
 		},
 		{
+			id: 4,
 			component: HeartAndBrain,
+			title: "Fetal Heart & Brain",
 			btnurl: "https://fetus.ucsf.edu/research/fetal-heart-brain-study",
 			btntext: "Learn More",
+			active: false,
 		},
 	];
+
+	let activeId = 1;
+
+	$: activeResearch = research.filter(
+		(section) => section.id === activeId
+	)[0];
+
+	console.log(activeResearch);
+
+	const navClick = (e) => {
+		activeId = e.detail.id;
+		research = research.map((section) => {
+			if (section.id === activeId) {
+				return { ...section, active: true };
+			}
+			return { ...section, active: false };
+		});
+	};
 </script>
 
 <Header title="SMFM 41st Annual Pregnancy Meeting" />
@@ -40,18 +71,17 @@
 	subtitle="Lorem ipsum dolor sit amet consectetur"
 	src="https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/anita-and-patient-ultrasound.jpg"
 	alt="Dr. Anita Moon Grady and patient" />
-<!-- TODO: add row of cards that acts like a tabed nav featuring the content of 4 research areas which fill in below. this area is sticky so remains a nav when you scroll lower. Use scroll snap to have the top of this a snap section. Use FLIP animation to enlarge the card for the tab? -->
-
+<CardNav cards={research} {activeId} on:click={navClick} />
 <Main>
-	{#each research as section}
+	{#if activeResearch}
 		<Section>
-			<svelte:component this={section.component} />
+			<svelte:component this={activeResearch.component} />
 			<Button
 				on:click={(e) => console.log(e.detail.text)}
-				url={section.btnurl}>
-				{section.btntext}
+				url={activeResearch.btnurl}>
+				{activeResearch.btntext}
 			</Button>
 		</Section>
-	{/each}
+	{/if}
 </Main>
 <Footer />

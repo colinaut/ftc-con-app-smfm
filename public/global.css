@@ -117,6 +117,9 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
+
+    --z-nav: 100;
+    --z-popup: 200;
 }
 
 @media (min-width:64rem) {
@@ -564,6 +567,8 @@ input[type=submit] {
     font-weight: 700;
     letter-spacing: 1.1;
     letter-spacing: var(--leading-tight);
+    outline: none;
+    box-shadow: var(--button-shadow);
 }
 
 @media (hover:hover) {
