@@ -60,6 +60,7 @@
 
     /* Selected Colors */
     --primary: var(--blue);
+    --primary-light: #afe3ff;
     --secondary: var(--teal);
     --highlight: var(--orange);
     --success: var(--green);

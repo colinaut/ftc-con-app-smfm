@@ -33,7 +33,7 @@
             <IconLink
                 icon={faYoutube}
                 link="https://www.youtube.com/user/FetalTreatment/videos">
-                Youtube
+                FTC Youtube
             </IconLink>
         </li>
     </ul>

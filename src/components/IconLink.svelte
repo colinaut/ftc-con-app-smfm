@@ -15,11 +15,18 @@
         display: flex;
         align-items: center;
         cursor: pointer;
+        --icon-margin: var(--space-sm);
+    }
+    @media (min-width: 576px) {
+        a {
+            --icon-margin: var(--space-md);
+        }
     }
 </style>
 
 <a href={link} style={`--link-color:${color}; --link-font-size:${fontSize};`}>
-    <span class="icon"><Icon
-            data={icon}
-            style={`color: #fff; margin-right: var(--space-md); position: relative; top: .1rem;`}
-            scale="1.5" /></span><span class="text"><slot /></span></a>
+    <Icon
+        data={icon}
+        style={`color: #fff; margin-right: var(--icon-margin);`}
+        scale="1.5" />
+    <slot /></a>
