@@ -21,6 +21,8 @@
     }
 </style>
 
+<!-- TODO: make a grid for mobile and for desktop -->
+
 <div class="wrapper">
     <nav class="max-hero-width">
         {#each cards as navItem}

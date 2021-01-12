@@ -64,15 +64,22 @@
 	};
 
 	const navClick = (e) => {
-		hero = false;
-		footerCollapse = true;
-		activeId = e.detail.id;
-		research = research.map((section) => {
-			if (section.id === activeId) {
-				return { ...section, active: true };
-			}
-			return { ...section, active: false };
-		});
+		const id = e.detail.id;
+		if (activeId !== false && activeId === id) {
+			hero = true;
+			footerCollapse = false;
+			activeId = false;
+		} else {
+			hero = false;
+			footerCollapse = true;
+			activeId = e.detail.id;
+			research = research.map((section) => {
+				if (section.id === activeId) {
+					return { ...section, active: true };
+				}
+				return { ...section, active: false };
+			});
+		}
 	};
 	// TODO: make navCLick also scroll back to top
 </script>
@@ -81,6 +88,9 @@
 	.content,
 	.section {
 		background: var(--white);
+	}
+	.content {
+		padding-bottom: 9rem;
 	}
 </style>
 
@@ -114,4 +124,4 @@
 		</div>
 	{/if}
 </div>
-<Footer collapse={footerCollapse} />
+<Footer />

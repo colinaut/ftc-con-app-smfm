@@ -51,6 +51,8 @@
     }
 </style>
 
+<!-- TODO: Work on sizes using real images and responsive for mobile vs desktop -->
+
 <div class:active={id === activeId} on:click={click}>
     <h2 class="center-content">{title}</h2>
     <img src={imgSrc} alt={imgAlt} />
