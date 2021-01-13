@@ -79,6 +79,10 @@
             filter: grayscale(0);
             opacity: 1;
         }
+        div.active:hover img {
+            filter: grayscale(0.8);
+            opacity: 0.3;
+        }
     }
 
     @media (min-width: 576px) {
