@@ -1,5 +1,5 @@
 <script>
-	import { slide } from "svelte/transition";
+	import { slide, fly } from "svelte/transition";
 	import Header from "./components/Header.svelte";
 	import Hydrops from "./content/Hydrops.md";
 	import HeartAndBrain from "./content/HeartAndBrain.md";
@@ -10,7 +10,7 @@
 	import Main from "./components/Main.svelte";
 	import Footer from "./components/Footer.svelte";
 	import Hero from "./components/Hero.svelte";
-	// import Button from "./components/Button.svelte";
+	import Home from "./content/Home.md";
 	import CardNav from "./components/CardNav.svelte";
 
 	let research = [
@@ -69,8 +69,6 @@
 		(section) => section.id === activeId
 	)[0];
 
-	console.log(activeResearch);
-
 	const logoClick = (e) => {
 		hero = true;
 		activeId = false;
@@ -103,11 +101,15 @@
 	.content {
 		padding-bottom: 9rem;
 	}
+	.transition-wrapper {
+		position: relative;
+		overflow: hidden;
+	}
 </style>
 
 <Header title="SMFM 41st Annual Pregnancy Meeting" on:click={logoClick} />
 {#if hero}
-	<div in:slide={{ duration: 2000 }} out:slide={{ duration: 2000 }}>
+	<div transition:slide={{ duration: 1000 }}>
 		<Hero
 			title="Leaders in genomics and precision-based in utero diagnosis and care"
 			src="https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/anita-and-patient-ultrasound.jpg"
@@ -116,22 +118,26 @@
 {/if}
 <div class="content">
 	<CardNav cards={research} {activeId} on:click={navClick} />
-	{#if activeResearch}
-		<div
-			class="section"
-			in:slide={{ duration: 2000 }}
-			out:slide={{ duration: 2000 }}>
-			<Main>
-				<Section>
-					<svelte:component this={activeResearch.component} />
-					<!-- <Button
-						on:click={(e) => console.log(e.detail.text)}
-						url={activeResearch.btnurl}>
-						{activeResearch.btntext}
-					</Button> -->
-				</Section>
-			</Main>
-		</div>
-	{/if}
+	<Main>
+		<Section>
+			<div class="transition-wrapper">
+				{#if activeResearch}
+					<div
+						class="section"
+						in:fly={{ duration: 400, delay: 1400, x: -1000 }}
+						out:fly={{ duration: 400, delay: 1000, x: 1000 }}>
+						<svelte:component this={activeResearch.component} />
+					</div>
+				{:else}
+					<div
+						class="section"
+						in:fly={{ duration: 400, delay: 1400, x: -1000 }}
+						out:fly={{ duration: 400, delay: 1000, x: 1000 }}>
+						<Home />
+					</div>
+				{/if}
+			</div>
+		</Section>
+	</Main>
 </div>
 <Footer />

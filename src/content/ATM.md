@@ -12,11 +12,17 @@ Early diagnosis and treatment of a pregnancy affected by Alpha Thalassemia Major
 
 In this [FDA-approved](https://clinicaltrials.gov/ct2/show/NCT02986698) phase 1 clinical trial, we transplant stem cells from the mother to the affected fetus at the same time as a planned IUT. Performing the stem cell transplantation at the same time as IUT minimizes additional procedural risk to the fetus and takes advantage of a unique time period in development when the mother can be an ideal stem cell donor for her fetus. We are testing whether this added in utero transplantation is safe and effective for patients with ATM.
 
+## ATM Patient Story
+
 Two patients have been transplanted in this clinical trial, and both are thriving toddlers. These videos tell the story of the first patient, Elianna.
 
-[PART 1: Tippi and Elianna's Story: Stopping a Fatal Blood Disease Before Birth](https://vimeo.com/295220171) from [UCSF: The Campaign](https://vimeo.com/ucsfthecampaign).
+### PART 1: Tippi and Elianna's Story: Stopping a Fatal Blood Disease Before Birth
 
-[PART 2: Tippi, Elliott and Elianna’s Story: Little Girl Thrives After Fetal Stem Cell Transplant](https://vimeo.com/361864868) from [UCSF: The Campaign](https://vimeo.com/ucsfthecampaign).
+<VideoEmbed videoId="295220171" player="vimeo" />
+
+### PART 2: Tippi, Elliott and Elianna’s Story: Little Girl Thrives After Fetal Stem Cell Transplant
+
+<VideoEmbed videoId="361864868" player="vimeo" />
 
 ## Overview
 
@@ -43,3 +49,7 @@ For more information about this clinical trial or to refer a patient, please cal
 **Principal Investigator:** [Tippi C. MacKenzie, MD](https://fetus.ucsf.edu/our-team/tippi-mackenzie-md)
 
 **Sponsors:** This study is funded by the California Institute for Regenerative Medicine (CIRM) and the UCSF Center for Maternal Fetal Precision Medicine.
+
+<script>
+    import VideoEmbed from "../components/VideoEmbed.svelte"
+</script>

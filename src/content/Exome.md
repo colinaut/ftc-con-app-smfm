@@ -20,6 +20,8 @@ More efficient than tests that look at single genes one at a time, exome sequenc
 
 The goal of exome sequencing is to cast a wider net than is possible with specific gene panels, to more quickly identify genetic etiologies of diseases. Researchers at UCSF Benioff Children’s Hospitals are using exome sequencing to better understand the causes of fetal anomalies. The result may improve patient care.
 
+<VideoEmbed videoId="mYxFAExLxVI" player="youtube" />
+
 ## Webinar: When Is Exome Sequencing Valuable in Prenatal Diagnosis?
 
 [View the webinar](https://medconnection.ucsfhealth.org/videos/genetic-testing-update-when-is-exome-sequencing-valuable-in-prenatal-diagnosis), with maternal-fetal medicine specialist, Mary E. Norton, MD, discussing genetic testing options, with a focus on when exome sequencing has value to families. Also, perinatologist, Teresa N. Sparks, MD, presents specifics on exome sequencing for nonimmune hydrops fetalis, caused by many single-gene disorders, plus a look at findings from her current NIHF study.
@@ -45,8 +47,9 @@ For a full description of these studies:
 **Download the [PEGS Research PDF Brochure](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/ENG%20PEGS%20Prenatal%20Brochure_02.05.2018%20FINAL.pdf)**
 
 or visit UCSF Clinical Trials to read the specific trail information at:
-[https://clinicaltrials.ucsf.edu/trial/NCT03482141](https://clinicaltrials.ucsf.edu/trial/NCT03482141)
-[https://clinicaltrials.ucsf.edu/trial/NCT03412760](https://clinicaltrials.ucsf.edu/trial/NCT03412760)
+
+- [https://clinicaltrials.ucsf.edu/trial/NCT03482141](https://clinicaltrials.ucsf.edu/trial/NCT03482141)
+- [https://clinicaltrials.ucsf.edu/trial/NCT03412760](https://clinicaltrials.ucsf.edu/trial/NCT03412760)
 
 ## For more information, contact:
 
@@ -93,3 +96,7 @@ Perinatologist and Clinical Geneticist
         margin: var(--space-xxs) 0;
     }
 </style>
+
+<script>
+    import VideoEmbed from '../components/VideoEmbed.svelte';
+</script>

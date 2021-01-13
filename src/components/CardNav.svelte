@@ -7,6 +7,7 @@
     .wrapper {
         position: sticky;
         top: 0px;
+        z-index: var(--z-nav);
     }
 
     nav {
@@ -18,9 +19,7 @@
         justify-content: space-between;
         margin: 0 auto;
         background: var(--white);
-        z-index: var(--z-nav);
         border-top: 4px solid var(--white);
-        border-bottom: 4px solid var(--white);
     }
 
     @media (min-width: 576px) {

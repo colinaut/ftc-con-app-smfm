@@ -54,7 +54,13 @@ We are enrolling participants who are pregnant with a fetus diagnosed with NIHF,
 
 ## What can I expect if I enroll in the study?
 
-For NIHF pregnancies that are not clearly explained by standard genetic testing (karyotype or microarray), **we offer trio exome sequencing through our UCSF Genomic Medicine Laboratory at no cost to families participating in the study.** With trio exome sequencing, we examine more than 20,000 genes in the DNA of the fetus or infant to determine whether there are genetic variations that explain the NIHF. Samples from each biological parent are also used to determine whether these genetic changes are inherited. This testing can also be done using a sample from only one parent if both are not available. [UCSF has prepared a video to explain trio exome sequencing](##videos).
+For NIHF pregnancies that are not clearly explained by standard genetic testing (karyotype or microarray), **we offer trio exome sequencing through our UCSF Genomic Medicine Laboratory at no cost to families participating in the study.** With trio exome sequencing, we examine more than 20,000 genes in the DNA of the fetus or infant to determine whether there are genetic variations that explain the NIHF. Samples from each biological parent are also used to determine whether these genetic changes are inherited. This testing can also be done using a sample from only one parent if both are not available. _UCSF has prepared the video below to explain trio exome sequencing._
+
+<VideoEmbed videoId="mYxFAExLxVI" player="youtube" />
+
+[Fetal Exome Sequencing (Spanish Translation)](https://bit.ly/3h99JAv)
+
+[Fetal Exome Sequencing (Mandarin Translation)](https://bit.ly/322ZXtj)
 
 Download the [Study Overview chart](https://fetus.ucsf.edu//sites/fetus.ucsf.edu/files/wysiwyg/UCSF_HyDROPS_Study_Overview_7-2020.pdf), which outlines what to expect.
 
@@ -116,14 +122,6 @@ Clinical Research Coordinator
 
 </div>
 
-## Fetal Exome Sequencing video
-
-[Fetal Exome Sequencing](https://www.youtube.com/watch?v=mYxFAExLxVI)
-
-[Fetal Exome Sequencing (Spanish Translation)](https://bit.ly/3h99JAv)
-
-[Fetal Exome Sequencing (Mandarin Translation)](https://bit.ly/322ZXtj)
-
 ## Publications by our group
 
 ### Published Manuscripts:
@@ -179,3 +177,7 @@ This study is funded by the Fetal Health Foundation, the Brianna Marie Foundatio
         margin: var(--space-xxs) 0;
     }
 </style>
+
+<script>
+    import VideoEmbed from '../components/VideoEmbed.svelte';
+</script>

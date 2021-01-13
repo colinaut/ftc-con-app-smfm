@@ -54,7 +54,7 @@
         color: #fff;
     }
     .hero-title {
-        margin: 0 20% var(--space-sm) 0;
+        margin: 0 20% 0 0;
         font-weight: bold;
         font-size: var(--text-md);
         line-height: var(--leading-tight);
@@ -62,6 +62,7 @@
     }
     .hero-subtitle {
         font-size: var(--text-sm);
+        margin-top: var(--space-sm);
         line-height: 20px;
         letter-spacing: 1.6px;
         font-weight: 400;
@@ -69,10 +70,10 @@
     @media (min-width: 576px) {
         .hero-title {
             font-size: var(--text-xxl);
-            margin-bottom: var(--space-md);
         }
         .hero-subtitle {
             font-size: var(--text-md);
+            margin-top: var(--space-md);
         }
         .hero-content {
             padding: var(--space-lg);
@@ -81,7 +82,7 @@
     @media (min-width: 768px) {
         .hero-title {
             font-size: var(--text-xxxxl);
-            margin-bottom: var(--space-lg);
+            margin-top: var(--space-lg);
         }
         .hero-subtitle {
             font-size: var(--text-lg);
