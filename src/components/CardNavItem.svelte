@@ -1,4 +1,5 @@
 <script>
+    import * as animateScroll from "svelte-scrollto";
     export let navItem = {};
     export let activeId;
     const {
@@ -13,6 +14,7 @@
     const dispatch = createEventDispatcher();
 
     const click = () => {
+        animateScroll.scrollToTop();
         dispatch("click", {
             id: id,
         });
@@ -108,7 +110,7 @@
 
 <!-- TODO: Work on sizes using real images and responsive for mobile vs desktop -->
 
-<div class:active={id === activeId} on:click={click}>
+<div class="nav-btn" class:active={id === activeId} on:click={click}>
     <h2 class="center-content">{title}</h2>
     <img src={imgSrc} alt={imgAlt} />
 </div>
