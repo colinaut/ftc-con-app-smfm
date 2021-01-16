@@ -31,6 +31,7 @@
 
 <style>
   div {
+    --h: 1.8rem;
     flex: 1 0 0;
     white-space: nowrap;
     display: grid;
@@ -47,9 +48,9 @@
     font-size: var(--text-sm);
     font-weight: 700;
     grid-area: block;
-    padding: var(--space-md);
+    padding: var(--space-sm);
     line-height: var(--leading-tight);
-    height: 2rem;
+    height: var(--h);
     align-self: end;
     margin: 0;
     z-index: calc(var(--z-nav) + 2);
@@ -61,7 +62,7 @@
   img {
     grid-area: block;
     width: 100%;
-    height: 2rem;
+    height: var(--h);
     position: relative;
     filter: none;
     transition: filter 400ms, opacity 400ms;
@@ -101,12 +102,10 @@
       white-space: normal;
       border-right: none;
       border-left: none;
-    }
-    img {
-      height: 6rem;
+      --h: 6rem;
     }
     span {
-      height: 3.5rem;
+      height: calc(var(--h) / 2);
       font-size: var(--text-base);
     }
   }
@@ -114,12 +113,9 @@
   @media (min-width: 768px) {
     div {
       flex: 1 0 15%;
-    }
-    img {
-      height: 10rem;
+      --h: 10rem;
     }
     span {
-      height: 5rem;
       font-size: var(--text-sm);
     }
   }
