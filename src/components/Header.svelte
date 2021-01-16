@@ -1,6 +1,6 @@
 <script>
   import Logo from "./Logo.svelte";
-  export let title, w;
+  let w;
 
   import { createEventDispatcher } from "svelte";
 
@@ -26,7 +26,6 @@
       alt="Society for Maternal Fetal Medicine"
     />
     <span class="year">2021 Annual Meeting</span>
-    <!-- <h1>{title}</h1> -->
   </div>
 </header>
 

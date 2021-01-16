@@ -102,7 +102,7 @@
 
 <!-- TODO: Move all image content to public folder -->
 <!-- TODO: replace pdfs for ATM with new ones both here and on FTC site -->
-<Header title="SMFM 41st Annual Pregnancy Meeting" on:click={logoClick} />
+<Header on:click={logoClick} />
 {#if hero}
   <div class="transition-wrapper" transition:slide={{ duration: 1000 }}>
     <Hero
