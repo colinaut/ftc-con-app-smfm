@@ -2,6 +2,7 @@
     import { createEventDispatcher } from "svelte";
 
     export let speed = 600;
+
     let button,
         width,
         height,

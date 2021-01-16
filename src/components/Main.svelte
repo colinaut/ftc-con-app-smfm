@@ -1,3 +1,3 @@
 <main class="max-content-width">
-    <slot />
+  <slot />
 </main>
