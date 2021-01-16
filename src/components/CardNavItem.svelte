@@ -21,9 +21,6 @@
   };
 </script>
 
-<!-- TODO: Work on sizes using real images and responsive for mobile vs desktop -->
-<!-- TODO: change to brick layout for mobile rather than centered one per line -->
-
 <div class="nav-btn" class:active={id === activeId} on:click={click}>
   <span class="center-content">{title}</span>
   <img src={imgSrc} alt={imgAlt} />

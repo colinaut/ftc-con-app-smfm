@@ -64,8 +64,6 @@
     --info: var(--light-navy);
     --warning: var(--yellow);
 
-    /* TODO: Fix IE 11 default colors below */
-
 
     /* ------------------------------- Typography ------------------------------- */
 
@@ -234,7 +232,7 @@ small {
 /* -------------------------------------------------------------------------- */
 p {
     margin-bottom: 2rem;
-    margin-bottom: var(--space-lg);
+    margin-bottom: var(--space-md);
 }
 
 p>:last-child {
