@@ -98,6 +98,7 @@
     --space-md: 1rem;
     --space-lg: 2rem;
     --space-xl: 3rem;
+    --space-xxl: 5rem;
 
     /* -------------------------------- Box Specs ------------------------------- */
     --border-radius: 0.2rem;
@@ -119,7 +120,7 @@
     --z-popup: 200;
 }
 
-@media (min-width:64rem) {
+@media (min-width:140ch) {
 
     /* responsive decision applied to all text elements */
     :root {
@@ -405,8 +406,6 @@ th {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
     list-style: disc outside;
     font-feature-settings: "tnum";
     font-variant-numeric: tabular-nums;
@@ -418,8 +417,8 @@ ol {
 
 ol,
 ul {
-    margin: 0 0 1rem;
-    margin: 0 0 var(--space-md);
+    margin: 0 0 2rem;
+    margin: 0 0 var(--space-lg);
     padding: 0 0 0 2rem;
     padding: 0 0 0 var(--space-lg);
     padding-left: 2rem;
@@ -602,7 +601,7 @@ input[disabled] {
 }
 
 .overlay {
-    grid-area: 1 / 1 / -1 / -1;
+    grid-area: 1 / 1;
 }
 
 /* ------------------------ Layout Helpers ----------------------- */

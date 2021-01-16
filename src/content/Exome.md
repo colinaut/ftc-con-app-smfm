@@ -44,7 +44,7 @@ All costs of testing will be paid for by these studies, which are funded by the 
 
 For a full description of these studies:
 
-**Download the [PEGS Research PDF Brochure](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/ENG%20PEGS%20Prenatal%20Brochure_02.05.2018%20FINAL.pdf)**
+**Download the [PEGS Research PDF Brochure](/pdfs/ENG-PEGS-Prenatal-Brochure_02.05.2018-FINAL.pdf)**
 
 or visit UCSF Clinical Trials to read the specific trail information at:
 
@@ -57,7 +57,7 @@ or visit UCSF Clinical Trials to read the specific trail information at:
 
 ### Billie Lianoglou, MS, LCGC
 
-![Billie Lianoglou, MS, LCGC](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/billie_0.jpg)
+![Billie Lianoglou, MS, LCGC](/images/Billie.jpg)
 
 Genetic Counselor
 
@@ -67,7 +67,7 @@ Genetic Counselor
 
 ### Mary E. Norton, MD
 
-![Mary E. Norton, MD](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/mary.jpg)
+![Mary E. Norton, MD](/images/mary.jpg)
 
 Perinatologist and Clinical Geneticist
 
@@ -81,7 +81,7 @@ Director, Division of Maternal-Fetal Medicine
 
 ### Teresa Sparks, MD, MAS
 
-![Teresa Sparks, MD, MAS](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/Teresa.jpg)
+![Teresa Sparks, MD, MAS](/images/Teresa.jpg)
 
 Perinatologist and Clinical Geneticist
 

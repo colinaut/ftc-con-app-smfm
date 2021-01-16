@@ -4,9 +4,9 @@ title: Fetal Heart & Brain
 
 # {title}
 
-![Shabnam Peyvandi, MD MAS](images/Shabnam-P.jpg)
+![Shabnam Peyvandi, MD MAS](/images/Shabnam-P.jpg)
 
-**Principle Investigator:** [Shabnam Peyvandi, MD MAS](https://kids.ucsfbenioffchildrens.org/providers/dr-shabnam-peyvandi)
+**Principle Investigator:** Shabnam Peyvandi, MD MAS
 
 ## Study Team
 

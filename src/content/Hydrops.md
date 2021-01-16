@@ -16,7 +16,7 @@ NIHF carries significant risks of stillbirth during the pregnancy, as well as of
 
 Our research has shown that the cause of at least half of all NIHF cases remains unknown after standard-of-care testing that includes karyotype and microarray. **Importantly, without an understanding of the reason for the NIHF, prenatal care for a pregnancy with NIHF is less focused, clear plans for newborn care cannot be made, and the chance of NIHF happening again in a future pregnancy cannot be accurately estimated.**
 
-Download the [Non-Immune Hydrops Fetalis Workup](https://fetus.ucsf.edu//sites/fetus.ucsf.edu/files/wysiwyg/UCSF%20NIHF%20Workup%202-2020.pdf) for our recommended workup for NIHF.
+Download the [Non-Immune Hydrops Fetalis Workup](/pdfs/UCSF-NIHF-Workup-2-2020.pdf) for our recommended workup for NIHF.
 
 ## Why is this study important?
 
@@ -58,11 +58,11 @@ For NIHF pregnancies that are not clearly explained by standard genetic testing 
 
 <VideoEmbed videoId="mYxFAExLxVI" player="youtube" />
 
-[Fetal Exome Sequencing (Spanish Translation)](https://bit.ly/3h99JAv)
+[Fetal Exome Sequencing (Spanish Translation)](https://www.youtube.com/watch?v=vDTzz2jZbh8)
 
-[Fetal Exome Sequencing (Mandarin Translation)](https://bit.ly/322ZXtj)
+[Fetal Exome Sequencing (Mandarin Translation)](https://www.youtube.com/watch?v=JmTQVInGETc)
 
-Download the [Study Overview chart](https://fetus.ucsf.edu//sites/fetus.ucsf.edu/files/wysiwyg/UCSF_HyDROPS_Study_Overview_7-2020.pdf), which outlines what to expect.
+Download the [Study Overview chart](/pdfs/UCSF_HyDROPS_Study_Overview_7-2020.pdf), which outlines what to expect.
 
 Participants will meet twice with the study team by telephone or video (or potentially in person if the participant is already a UCSF patient). During the first meeting, we will explain the study and genetic testing, and answer all questions about participation. During the second meeting, we will return results of the trio exome sequencing and answer all questions about the results. We also provide a formal report of the results that participants can keep for their records.
 
@@ -86,7 +86,7 @@ If you would like to participate in the study or want more information, please e
 
 ### Teresa Sparks, MD, MAS
 
-![Teresa Sparks, MD, MAS](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/Teresa.jpg)
+![Teresa Sparks, MD, MAS](/images/Teresa.jpg)
 
 Maternal-Fetal Medicine and Clinical Genetics
 
@@ -96,7 +96,7 @@ Principal Investigator
 
 ### Mary Norton, MD
 
-![Mary Norton, MD](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/mary.jpg)
+![Mary Norton, MD](/images/mary.jpg)
 
 Maternal-Fetal Medicine and Clinical Genetics
 
@@ -106,7 +106,7 @@ Co-Principal Investigator
 
 ### Billie Lianoglou, MS, LCGC
 
-![Billie Lianoglou, MS, LCGC](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/billie_0.jpg)
+![Billie Lianoglou, MS, LCGC](/images/Billie.jpg)
 
 Genetic Counselor
 
@@ -114,7 +114,7 @@ Genetic Counselor
 
 ### Sarah Downum, BS
 
-![Sarah Downum, BS](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/Sarah%20Downum.png)
+![Sarah Downum, BS](/images/Sarah-Downum.png)
 
 Clinical Research Coordinator
 
@@ -156,9 +156,9 @@ Sparks TN, Thao K, Lianoglou B, Boe N, Bruce K, Datkaeva I, Field N, Fratto V, J
 
 ## Study Brochures
 
-Download [HyDROPS Brochure for Participant](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/UCSF_HyDROPS_Patient_Brochure_6-2020.pdf)
+Download [HyDROPS Brochure for Participant](/pdfs/UCSF_HyDROPS_Patient_Brochure_6-2020.pdf)
 
-Download [HyDROPS Brochure for Medical Provider](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/UCSF_HyDROPS_Provider_Brochure_Insert%202-2020.pdf)
+Download [HyDROPS Brochure for Medical Provider](/pdfs/UCSF_HyDROPS_Provider_Brochure_Insert-2-2020.pdf)
 
 ## Webinar: When Is Exome Sequencing Valuable in Prenatal Diagnosis?
 

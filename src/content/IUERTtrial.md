@@ -33,7 +33,7 @@ This is the first time in utero enzyme replacement therapy will be performed in 
 
 ## Trial design
 
-![Trial Design](images/IUERT-trial.png)
+![Trial Design](/images/IUERT-trial.png)
 
 We will enroll 10 women with a fetus diagnosed with one of the included LSDs, based on chorionic villus sampling (CVS) or amniocentesis. Between 18 to 35 weeks gestation, we will give the weight-based dose of the relevant FDA-approved enzyme replacement therapy every 2-4 weeks. This will be done by an umbilical vein injection, which is a procedure routinely used for in utero blood transfusions, and that has a good safety profile. After birth, the baby will receive standard care, including ERT and possibly stem cell transplantation (depending on the disease). We will follow the child for 5 years after birth, to determine whether in utero ERT improves long-term outcomes such as neurologic function, mobility, and growth.
 
@@ -48,8 +48,8 @@ We will enroll 10 women with a fetus diagnosed with one of the included LSDs, ba
 
 [Nguyen QH, Witt RG, Wang B, et al. Tolerance induction and microglial engraftment after fetal therapy without conditioning in mice with Mucopolysaccharidosis type VII. Science translational medicine. 2020;12(532).](https://stm.sciencemag.org/content/12/532/eaay8980)
 
-Clinicaltrials.gov Identifier: [NCT04532047](https://clinicaltrials.gov/ct2/show/NCT04532047)
+**Clinicaltrials.gov Identifier:** [NCT04532047](https://clinicaltrials.gov/ct2/show/NCT04532047)
 
-Principal Investigator: [Tippi C. MacKenzie, MD](https://fetus.ucsf.edu/our-team/tippi-mackenzie-md "Tippi MacKenzie, M.D.")
+**Principal Investigator:** Tippi C. MacKenzie, MD
 
-Sponsors: [UCSF Center for Maternal Fetal Precision Medicine](https://mfprecision.ucsf.edu/)
+**Sponsors:** [UCSF Center for Maternal Fetal Precision Medicine](https://mfprecision.ucsf.edu/)

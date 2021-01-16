@@ -12,15 +12,27 @@ Early diagnosis and treatment of a pregnancy affected by Alpha Thalassemia Major
 
 In this [FDA-approved](https://clinicaltrials.gov/ct2/show/NCT02986698) phase 1 clinical trial, we transplant stem cells from the mother to the affected fetus at the same time as a planned IUT. Performing the stem cell transplantation at the same time as IUT minimizes additional procedural risk to the fetus and takes advantage of a unique time period in development when the mother can be an ideal stem cell donor for her fetus. We are testing whether this added in utero transplantation is safe and effective for patients with ATM.
 
-## ATM Patient Story
+## ATM Trial Whiteboard Animation
 
-Two patients have been transplanted in this clinical trial, and both are thriving toddlers. These videos tell the story of the first patient, Elianna.
+<VideoEmbed videoId="TXh1zfd21T8" player="youtube" />
 
-### PART 1: Tippi and Elianna's Story: Stopping a Fatal Blood Disease Before Birth
+- [Whiteboard Animation - Thai](https://vimeo.com/310165901)
+- [Whiteboard Animation - Mandarin](https://vimeo.com/310162934)
+- [Whiteboard Animation - Cantonese](https://vimeo.com/319945101)
+- [Whiteboard Animation - Vietnamese](https://vimeo.com/310164769)
+- [Whiteboard Animation - Tagalog](https://vimeo.com/310167576)
+
+## ATM Patient Stories
+
+### Surviving With Joy, Living with Alpha Thalassemia Major
+
+<VideoEmbed videoId="Z69lSa6bJYg" player="youtube" />
+
+### Elianna's Story PART 1: Stopping a Fatal Blood Disease Before Birth
 
 <VideoEmbed videoId="295220171" player="vimeo" />
 
-### PART 2: Tippi, Elliott and Elianna’s Story: Little Girl Thrives After Fetal Stem Cell Transplant
+### Elianna's Story PART 2: Little Girl Thrives After Fetal Stem Cell Transplant
 
 <VideoEmbed videoId="361864868" player="vimeo" />
 
@@ -38,17 +50,26 @@ For more information about this clinical trial or to refer a patient, please cal
 
 ## Educational Information
 
-- Treatment Options for Pregnancy with ATM (for patients) — [English](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/Patient ATM brochure.pdf), [Tagalog](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/PatientATMbrochure_tl_LR.pdf), [Thai](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/PatientATMbrochure_Thai_HR.pdf), [Traditional Chinese](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/PatientATMbrochure_zh-tw_HR.pdf), [Vietnamese](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/PatientATMbrochure_VI_LR.pdf)
-- Fetal Intervention for ATM (for patients) — trifold in [English](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/ATM Patient brochure 2018-07 trifold.pdf)
-- Fetal Intervention for ATM (for providers) — trifold in [English](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/Alpha%20Thalassemia%20Major%20brochure%20for%20providers.pdf), [Tagalog](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/AlphaThalassemiaMajorbrochureforproviders_tl_LR.pdf), [Thai](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/AlphaThalassemiaMajorbrochureforproviders_Thai_LR.pdf), [Traditional Chinese](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/AlphaThalassemiaMajorbrochureforproviders_zh-tw_LR.pdf), [Vietnamese](http://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/AlphaThalassemiaMajorbrochureforproviders_VI_LR.pdf)
-- [Prenatal Screening & Diagnosis Algorithm for Thalassemia](https://fetus.ucsf.edu/sites/fetus.ucsf.edu/files/wysiwyg/FTC-prenatal%20screening%20for%20thalassemia%5B1%5D.pdf)
-- [Favorable outcomes after in utero transfusion in fetuses with alpha thalassemia major: a case series and review of the literature](http://rdcu.be/JpvW) Kreger EM, Singer ST, Witt RG, Sweeters N, Lianoglou B, Lal A, Mackenzie TC, Vichinsky E. Prenat Diagn. 2016 Dec; 36(13):1242-1249.
+- Treatment Options for Pregnancy with ATM (for patients): [English](/pdfs/PatientATMbrochure.pdf), [Tagalog](/pdfs/PatientATMbrochure_tl_LR.pdf), [Thai](/pdfs/PatientATMbrochure_Thai_HR.pdf), [Traditional Chinese](/pdfs/PatientATMbrochure_zh-tw_HR.pdf), [Vietnamese](/pdfs/PatientATMbrochure_VI_LR.pdf)
+- Fetal Intervention for ATM (for patients) trifold: [English](/pdfs/ATM-Patient-brochure-2018-07-trifold.pdf)
+- Fetal Intervention for ATM (for providers) trifold: [English](/pdfs/AlphaThalassemiaMajorbrochureforproviders.pdf), [Tagalog](/pdfs/AlphaThalassemiaMajorbrochureforproviders_tl_LR.pdf), [Thai](/pdfs/AlphaThalassemiaMajorbrochureforproviders_Thai_LR.pdf), [Traditional Chinese](/pdfs/AlphaThalassemiaMajorbrochureforproviders_zh-tw_LR.pdf), [Vietnamese](/pdfs/AlphaThalassemiaMajorbrochureforproviders_VI_LR.pdf)
+- [Prenatal Screening & Diagnosis Algorithm for Thalassemia](/pdfs/FTC-prenatal-screening-for-thalassemia.pdf)
+- [UCSF-Hemoglobinopathy-Screening-Algorithm](/pdfs/UCSF-Hemoglobinopathy-Screening-Algorithm.pdf)
+- [Favorable outcomes after in utero transfusion in fetuses with alpha thalassemia major: a case series and review of the literature](https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/pd.4966?author_access_token=AD8EXxvp_2HenylHjgLpRU4keas67K9QMdWULTWMo8MMxzoh6LfQA-BIjaWGCPWRKZk6Dn-53kIeGR6-sPqX1xiijY7-N8rQeNChEvJVS155PBUfst-5WbFcB6qQv890) Kreger EM, Singer ST, Witt RG, Sweeters N, Lianoglou B, Lal A, Mackenzie TC, Vichinsky E. Prenat Diagn. 2016 Dec; 36(13):1242-1249.
+- [UCSF Center for Maternal-Fetal Precision Medicine](https://mfprecision.ucsf.edu)
+- [UCSF Fetal Treatment Center: Alpha Thalassemia Major](https://fetus.ucsf.edu/alpha-thalassemia)
 
 **ClinicalTrials.gov Identifier:** [NCT02986698](https://clinicaltrials.gov/ct2/show/NCT02986698)
 
-**Principal Investigator:** [Tippi C. MacKenzie, MD](https://fetus.ucsf.edu/our-team/tippi-mackenzie-md)
+**Principal Investigator:** Tippi C. MacKenzie, MD
 
 **Sponsors:** This study is funded by the California Institute for Regenerative Medicine (CIRM) and the UCSF Center for Maternal Fetal Precision Medicine.
+
+## Other Resources
+
+- [The Northern California Comprehensive Thalassemia Center](https://thalassemia.com)
+- [Cooley’s Anemia Foundation](https://www.thalassemia.org)
+- [Thalassemia International Federation](https://thalassaemia.org.cy)
 
 <script>
     import VideoEmbed from "../components/VideoEmbed.svelte"
