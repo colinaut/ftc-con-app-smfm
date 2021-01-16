@@ -29,7 +29,6 @@
   </div>
 </header>
 
-<!-- TODO: fix header on mobile -->
 <style>
   header {
     display: grid;
