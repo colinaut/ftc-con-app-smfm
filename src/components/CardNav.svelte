@@ -3,8 +3,6 @@
   export let cards, activeId;
 </script>
 
-<!-- TODO: make a grid for mobile and for desktop -->
-
 <div class="wrapper max-hero-width">
   <nav>
     {#each cards as navItem}

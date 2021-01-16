@@ -100,8 +100,6 @@
   };
 </script>
 
-<!-- TODO: Move all image content to public folder -->
-<!-- TODO: replace pdfs for ATM with new ones both here and on FTC site -->
 <Header on:click={logoClick} />
 {#if hero}
   <div class="transition-wrapper" transition:slide={{ duration: 1000 }}>
