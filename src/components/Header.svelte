@@ -1,6 +1,6 @@
 <script>
   import Logo from "./Logo.svelte";
-  export let title;
+  export let title, w;
 
   import { createEventDispatcher } from "svelte";
 
@@ -11,37 +11,54 @@
       logoClick: true,
     });
   };
+
+  $: logoFormat = w > 576 ? "normal" : "stocky";
 </script>
 
-<header class="max-hero-width">
+<header class="max-hero-width" bind:clientWidth={w}>
   <div class="branding" on:click={click}>
-    <Logo />
+    <Logo format={logoFormat} />
   </div>
-  <h1>{title}</h1>
+  <div class="con-branding">
+    <img
+      class="con-logo"
+      src="images/smfm-logo.png"
+      alt="Society for Maternal Fetal Medicine"
+    />
+    <span class="year">2021 Annual Meeting</span>
+    <!-- <h1>{title}</h1> -->
+  </div>
 </header>
 
+<!-- TODO: fix header on mobile -->
 <style>
   header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
     gap: var(--space-lg);
-    padding: 0 var(--space-md);
+    padding: var(--space-sm) var(--space-md);
   }
-  h1 {
-    justify-self: end;
-    align-self: center;
-    font-weight: 400;
-    font-size: var(--text-lg);
-    color: var(--darkest-gray);
+  .con-branding {
+    text-align: right;
+  }
+  .con-logo {
+    max-height: 7vh;
+  }
+  .year {
+    display: block;
+    color: var(--teal);
+    text-align: right;
+    font-size: 1.6vh;
   }
   .branding {
     align-self: center;
-    padding: var(--space-lg) 0;
     cursor: pointer;
   }
-  @media (max-width: 576px) {
-    h1 {
-      font-size: var(--text-base);
+  @media (min-width: 576px) {
+    header {
+      gap: var(--space-lg);
+      padding: var(--space-md) var(--space-md);
     }
   }
 </style>

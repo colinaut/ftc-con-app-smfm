@@ -78,7 +78,7 @@
 
     /* ------------------------------- Type scale ------------------------------- */
 
-    --scale: 1.2;
+    --scale: 1.15;
     --text-xs: calc(var(--text-base)/var(--scale)/var(--scale));
     --text-sm: calc(var(--text-base)/var(--scale));
     --text-base: 1rem;
@@ -175,6 +175,7 @@ h1 {
     font-size: 2.0736rem;
     font-size: var(--text-xxl);
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .text-xl,
@@ -182,6 +183,7 @@ h2 {
     font-size: 1.728rem;
     font-size: var(--text-xl);
     font-weight: 700;
+    line-height: 1.2;
 }
 
 .text-lg,
