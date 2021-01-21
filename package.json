@@ -2,7 +2,7 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "cssmin": "npx postcss src/css/onset.css -o dist/css/global.css --env production",
+    "cssmin": "npx postcss src/css/onset.css -o public/global.css --env production",
     "css": "npx postcss src/css/onset.css -o public/global.css --env development",
     "build": "rollup -c",
     "dev": "rollup -c -w",
