@@ -143,7 +143,7 @@
     background: var(--white);
   }
   .content {
-    padding-bottom: var(--space-xxl);
+    padding-bottom: var(--space-xl);
   }
   .transition-wrapper {
     position: relative;

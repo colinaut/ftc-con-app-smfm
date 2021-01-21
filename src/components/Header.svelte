@@ -35,19 +35,21 @@
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     gap: var(--space-lg);
-    padding: var(--space-sm) var(--space-md);
+    padding: var(--space-sm) var(--space);
   }
   .con-branding {
     text-align: right;
   }
   .con-logo {
-    max-height: 7vh;
+    max-height: 80px;
+    max-height: clamp(50px, 9vh, 90px);
   }
   .year {
     display: block;
     color: var(--teal);
     text-align: right;
-    font-size: 1.6vh;
+    font-size: var(--text-sm);
+    font-size: clamp(var(--text-xs), 2vh, var(--text-md));
   }
   .branding {
     align-self: center;
@@ -56,7 +58,7 @@
   @media (min-width: 576px) {
     header {
       gap: var(--space-lg);
-      padding: var(--space-md) var(--space-md);
+      padding: var(--space) var(--space);
     }
   }
 </style>

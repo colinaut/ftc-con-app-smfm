@@ -113,7 +113,7 @@
       --h: 10rem;
     }
     span {
-      font-size: var(--text-sm);
+      font-size: var(--text-base);
     }
   }
 </style>

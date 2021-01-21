@@ -44,6 +44,7 @@
     height: 0;
     overflow: hidden;
     z-index: 0;
+    margin: var(--space) 0;
   }
   iframe {
     position: absolute;
