@@ -188,6 +188,8 @@ h1, .h1 {
     font-weight: 700;
     line-height: 1.1;
     line-height: var(--leading-tight);
+    margin-top: calc(.9rem * 1.618);
+    margin-top: var(--space-md);
 }
 h2, .h2 {
     font-size: calc(calc(calc(1rem * 1.15) * 1.15) * 1.15);
@@ -195,6 +197,8 @@ h2, .h2 {
     font-weight: 700;
     line-height: 1.1;
     line-height: var(--leading-tight);
+    margin-top: calc(.9rem * 1.618);
+    margin-top: var(--space-md);
 }
 h3, .h3 {
     font-size: calc(calc(1rem * 1.15) * 1.15);

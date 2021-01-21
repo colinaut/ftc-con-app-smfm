@@ -49,12 +49,14 @@ h1, .h1 {
     font-size: var(--text-xxl);
     font-weight: 700;
     line-height: var(--leading-tight);
+    margin-top: var(--space-md);
 }
 
 h2, .h2 {
     font-size: var(--text-xl);
     font-weight: 700;
     line-height: var(--leading-tight);
+    margin-top: var(--space-md);
 }
 
 h3, .h3 {
