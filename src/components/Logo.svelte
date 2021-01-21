@@ -10,7 +10,9 @@
 <style>
   img {
     width: 100%;
-    max-width: 30ch;
-    max-height: 10vh;
+    max-height: 90px;
+    max-height: clamp(60px, 9vh, 120px);
+    object-fit: contain;
+    object-position: left;
   }
 </style>

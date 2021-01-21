@@ -24,15 +24,15 @@ In this [FDA-approved](https://clinicaltrials.gov/ct2/show/NCT02986698) phase 1 
 
 ## ATM Patient Stories
 
-### Surviving With Joy, Living with Alpha Thalassemia Major
+#### Surviving With Joy, Living with Alpha Thalassemia Major
 
 <VideoEmbed videoId="Z69lSa6bJYg" player="youtube" />
 
-### Elianna's Story PART 1: Stopping a Fatal Blood Disease Before Birth
+#### Elianna's Story PART 1: Stopping a Fatal Blood Disease Before Birth
 
 <VideoEmbed videoId="295220171" player="vimeo" />
 
-### Elianna's Story PART 2: Little Girl Thrives After Fetal Stem Cell Transplant
+#### Elianna's Story PART 2: Little Girl Thrives After Fetal Stem Cell Transplant
 
 <VideoEmbed videoId="361864868" player="vimeo" />
 

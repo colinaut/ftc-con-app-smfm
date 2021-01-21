@@ -1,10 +1,10 @@
 <script>
   import Social from "./Social.svelte";
   import IconLink from "./IconLink.svelte";
+  import { slide } from "svelte/transition";
 
   import { faClinicMedical } from "@fortawesome/free-solid-svg-icons";
   import Address from "./Address.svelte";
-  import Button from "./Button.svelte";
 
   let collapsed = true;
 
@@ -22,7 +22,7 @@
     <IconLink icon={faClinicMedical}>fetus.ucsf.edu</IconLink>
 
     {#if !collapsed}
-      <div class="location">
+      <div class="location footer-lower" transition:slide={{ duration: 300 }}>
         <Address
           header="UCSF Fetal Treatment Center"
           subhead="San Francisco"
@@ -35,7 +35,7 @@
           fax="415-502-0660"
         />
       </div>
-      <div class="location2">
+      <div class="location2 footer-lower" transition:slide={{ duration: 300 }}>
         <Address
           header="UCSF Fetal Treatment Center"
           subhead="Oakland"
@@ -48,7 +48,7 @@
         />
       </div>
 
-      <div class="links">
+      <div class="links footer-lower" transition:slide={{ duration: 300 }}>
         <Social />
       </div>
     {/if}
@@ -67,7 +67,6 @@
   }
 
   .collapse {
-    position: fixed;
     bottom: 0px;
   }
 
@@ -75,9 +74,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
-    gap: var(--space-md);
-    padding: var(--space-md);
-    padding-bottom: calc(var(--space-md) + env(safe-area-inset-bottom));
+    gap: 0px var(--space-md);
+    padding: var(--space);
+    padding-bottom: calc(var(--space) + env(safe-area-inset-bottom));
+  }
+  .footer-lower {
+    margin-top: var(--space);
   }
   .location {
     grid-area: 2 / 1 / 3 / 2;
@@ -112,10 +114,13 @@
   @media (min-width: 576px) {
     .inner {
       grid-template-columns: 1fr 1fr 1fr;
-      gap: var(--space-lg);
+      gap: 0px var(--space-md);
     }
     h2 {
       grid-column: 1 / 3;
+    }
+    .footer-lower {
+      margin-top: var(--space-md);
     }
     .location2 {
       grid-area: 2 / 2 / 3 / 3;

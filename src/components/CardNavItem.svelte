@@ -113,6 +113,20 @@
       --h: 10rem;
     }
     span {
+      font-size: var(--text-base);
+    }
+  }
+
+  @media only screen and (min-device-width: 576px) and (max-device-width: 812px) and (orientation: landscape) {
+    div {
+      flex: 1 0 0;
+      white-space: nowrap;
+      --h: 2rem;
+      border-right: 1px solid var(--white);
+      border-left: 1px solid var(--white);
+    }
+    span {
+      height: var(--h);
       font-size: var(--text-sm);
     }
   }

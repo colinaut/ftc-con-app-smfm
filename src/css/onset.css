@@ -1,0 +1,23 @@
+/* -------------------------------------------------------------------------- */
+/*                                  Onset CSS                                 */
+/*     A simple relatively unopinionated classless css using css variables    */
+/*                        by Colin Fahrion @colinaut                          */
+/* -------------------------------------------------------------------------- */
+
+/* Fonts for UCSF FTC */
+@import './partials/fonts.css';
+
+/* CSS Custom Properties Variables — modified for UCSF FTC */
+@import './partials/variables.css';
+
+/* (mostly) classless css for all major elements */
+@import './partials/base.css';
+
+/* Optional simple utility classes */
+@import './partials/util.css';
+
+/* Optional Grid layout stuff */
+@import './partials/layout.css';
+
+/* Add your own site specific styles here */
+@import './partials/styles.css';
