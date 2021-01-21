@@ -47,8 +47,8 @@
 
     /* ------------------------------- Typography ------------------------------- */
 
-    --leading-normal: 1.4;
-    --leading-tight: 1.1;
+    --leading-normal: 1.45;
+    --leading-tight: 1.15;
     --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-serif: Granjon, Garamond, sans-serif;
@@ -98,7 +98,7 @@
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
     /* --------------------------------- Layout --------------------------------- */
-    --max-content-width: 45rem;
+    --max-content-width: 44rem;
     --max-hero-width: 60rem;
 
     /* z-index for any floating or dropdown nav */
