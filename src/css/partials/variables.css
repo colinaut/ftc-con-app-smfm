@@ -1,0 +1,115 @@
+/* -------------------------------------------------------------------------- */
+/*                              Global Root Variables                         */
+/* -------------------------------------------------------------------------- */
+
+:root {
+
+    /* --------------------------------- Colors --------------------------------- */
+
+    /* Neutral Palette */
+    --black: #000;
+    --white: #fff;
+    --darkest-gray: #292929;
+    --darker-gray: #3b3a3a;
+    --dark-gray: #4D4D4D;
+    --gray: #9BA6B6;
+    --light-gray: #bfc2c2;
+    --lighter-gray: #efefef;
+
+    /* UCSF Colors */
+    --navy: #052049;
+    --light-navy: #506380;
+    --i-teal: #058488;
+    --teal: #18A3AC;
+    --i-green: #6EA400;
+    --green: #90BD31;
+    --purple: #716FB2;
+    --i-red: #EB093C;
+    --red: #EC1848;
+    --i-blue: #0071AD;
+    --blue: #178CCB;
+    --i-orange: #F26D04;
+    --orange: #F48024;
+    --yellow: #FFDD00;
+
+    /* Selected Colors */
+    --primary: var(--blue);
+    --primary-light: #afe3ff;
+    --primary-lighter: #d9f2ff;
+    --secondary: var(--teal);
+    --secondary-light: #70d4db;
+    --secondary-lighter: #b9faff;
+    --highlight: var(--orange);
+    --success: var(--green);
+    --danger: var(--red);
+    --info: var(--light-navy);
+    --warning: var(--yellow);
+
+    /* ------------------------------- Typography ------------------------------- */
+
+    --leading-normal: 1.45;
+    --leading-tight: 1.15;
+    --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-serif: Granjon, Garamond, sans-serif;
+    --font-monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    --text-body-color: var(--navy);
+
+    /* ------------------------------- Type scale ------------------------------- */
+
+    /* Fluid-Responsive Font-Size
+     * Minimum Font Size is 1rem (16px) and max is 1.25rem (20px)
+     * Scaling happens between the breakpoints 48rem and 120rem
+     * For how this works visit https://websemantics.uk/tools/responsive-font-calculator/
+     * Yeah I could have used a bunch of variables here but it seemed more complicated than it was worth.
+    */
+    font-size: clamp(1rem, calc(1rem + (1.25 - 1) * ((100vw - 48rem) / (120 - 48))), 1.25rem);
+    /* Safari Resize fix */
+    min-height: 0vw;
+
+    --text-scale: 1.15;
+    --text-xs: calc(var(--text-sm) / var(--text-scale));
+    --text-sm: calc(var(--text-base) / var(--text-scale));
+    --text-base: 1rem;
+    --text-md: calc(var(--text-base) * var(--text-scale));
+    --text-lg: calc(var(--text-md) * var(--text-scale));
+    --text-xl: calc(var(--text-lg) * var(--text-scale));
+    --text-xxl: calc(var(--text-xl) * var(--text-scale));
+    --text-xxxl: calc(var(--text-xxl) * var(--text-scale));
+    --text-xxxxl: calc(var(--text-xxxl) * var(--text-scale));
+
+    /* ----------------- Regular spacing for padding and margin ----------------- */
+
+    --space-scale: 1.618;
+    --space-xxs: calc(var(--space-xs) / var(--space-scale));
+    --space-xs: calc(var(--space-sm) / var(--space-scale));
+    --space-sm: calc(var(--space) / var(--space-scale));
+    --space: .9rem;
+    --space-md: calc(var(--space) * var(--space-scale));
+    --space-lg: calc(var(--space-md) * var(--space-scale));
+    --space-xl: calc(var(--space-lg) * var(--space-scale));
+    --space-xxl: calc(var(--space-xl) * var(--space-scale));
+
+    /* -------------------------------- Box Specs ------------------------------- */
+    --border-radius: 0.2rem;
+    --border-radius-md: 0.5rem;
+    --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+    /* --------------------------------- Layout --------------------------------- */
+    --max-content-width: 44rem;
+    --max-hero-width: 60rem;
+
+    /* z-index for any floating or dropdown nav */
+    --z-nav: 100;
+    /* z-index for any popups. See util.css for example of this in use with backdrop using calc */
+    --z-popup: 200;
+
+}
+
+@media (min-width: 576px) {
+    :root {
+        --text-scale: 1.2;
+    }
+}
