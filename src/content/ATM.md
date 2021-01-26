@@ -53,8 +53,7 @@ For more information about this clinical trial or to refer a patient, please cal
 - Treatment Options for Pregnancy with ATM (for patients): [English](/pdfs/PatientATMbrochure.pdf), [Tagalog](/pdfs/PatientATMbrochure_tl_LR.pdf), [Thai](/pdfs/PatientATMbrochure_Thai_HR.pdf), [Traditional Chinese](/pdfs/PatientATMbrochure_zh-tw_HR.pdf), [Vietnamese](/pdfs/PatientATMbrochure_VI_LR.pdf)
 - Fetal Intervention for ATM (for patients) trifold: [English](/pdfs/ATM-Patient-brochure-2018-07-trifold.pdf)
 - Fetal Intervention for ATM (for providers) trifold: [English](/pdfs/AlphaThalassemiaMajorbrochureforproviders.pdf), [Tagalog](/pdfs/AlphaThalassemiaMajorbrochureforproviders_tl_LR.pdf), [Thai](/pdfs/AlphaThalassemiaMajorbrochureforproviders_Thai_LR.pdf), [Traditional Chinese](/pdfs/AlphaThalassemiaMajorbrochureforproviders_zh-tw_LR.pdf), [Vietnamese](/pdfs/AlphaThalassemiaMajorbrochureforproviders_VI_LR.pdf)
-- [Prenatal Screening & Diagnosis Algorithm for Thalassemia](/pdfs/FTC-prenatal-screening-for-thalassemia.pdf)
-- [UCSF-Hemoglobinopathy-Screening-Algorithm](/pdfs/UCSF-Hemoglobinopathy-Screening-Algorithm.pdf)
+- [Prenatal Screening for Thalassemia](/pdfs/FTC-prenatal-screening-thalassemia-Jan2021.pdf)
 - [Favorable outcomes after in utero transfusion in fetuses with alpha thalassemia major: a case series and review of the literature](https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/pd.4966?author_access_token=AD8EXxvp_2HenylHjgLpRU4keas67K9QMdWULTWMo8MMxzoh6LfQA-BIjaWGCPWRKZk6Dn-53kIeGR6-sPqX1xiijY7-N8rQeNChEvJVS155PBUfst-5WbFcB6qQv890) Kreger EM, Singer ST, Witt RG, Sweeters N, Lianoglou B, Lal A, Mackenzie TC, Vichinsky E. Prenat Diagn. 2016 Dec; 36(13):1242-1249.
 - [UCSF Center for Maternal-Fetal Precision Medicine](https://mfprecision.ucsf.edu)
 - [UCSF Fetal Treatment Center: Alpha Thalassemia Major](https://fetus.ucsf.edu/alpha-thalassemia)
