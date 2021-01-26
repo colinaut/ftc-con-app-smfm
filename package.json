@@ -1,6 +1,6 @@
 {
   "name": "svelte-app",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "scripts": {
     "cssmin": "npx postcss src/css/onset.css -o public/global.css --env production",
     "css": "npx postcss src/css/onset.css -o public/global.css --env development",
