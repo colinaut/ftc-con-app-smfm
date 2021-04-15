@@ -26,7 +26,7 @@ In this [FDA-approved](https://clinicaltrials.gov/ct2/show/NCT02986698) phase 1 
 
 #### Surviving With Joy, Living with Alpha Thalassemia Major
 
-<VideoEmbed videoId="Z69lSa6bJYg" player="youtube" />
+<VideoEmbed videoId="9pp9xD4sdp0" player="youtube" />
 
 #### Elianna's Story PART 1: Stopping a Fatal Blood Disease Before Birth
 
