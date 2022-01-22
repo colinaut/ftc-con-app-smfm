@@ -13,3 +13,12 @@ The Fetal Treatment Center is proud of its 40-year legacy in fetal evaluation an
 **Experience that helps us provide the best possible care:** Our large patient volume and the diversity of cases we see give us a depth and breadth of experience that helps us provide the best care possible.
 
 **Nationally ranked pediatric specialties:** UCSF Benioff Children’s Hospitals are consistently ranked among the best in the nation by U.S. News & World Report’s annual survey of children’s hospitals. Babies delivered here have immediate access to more than 150 pediatric experts in 50 specialties.
+
+<SectionLink Section={EarlyUltrasound} on:sectionLinkClick>Window of Opportunity: Potential Payoff of Early Fetal Ultrasound</SectionLink>
+<SectionLink Section={TrailsAndResearchWebinar} on:sectionLinkClick>Ongoing Trials and Research Webinar</SectionLink>
+
+<script>
+    import SectionLink from "../components/SectionLink.svelte"
+    import EarlyUltrasound from "../content/EarlyUltrasound.md"
+    import TrailsAndResearchWebinar from "../content/TrialsAndResearchWebinar.md"
+</script>
