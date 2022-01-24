@@ -48,9 +48,13 @@ Associate Director, UCSF Fetal Cardiovascular Program
 
 **Scan To Register**
 
-* To secure your spot, please register on [qr.ucsfhealth.org/FTCwebinar](qr.ucsfhealth.org/FTCwebinar) or by scanning the QR code.
+* To secure your spot, please register on [qr.ucsfhealth.org/FTCwebinar](http://qr.ucsfhealth.org/FTCwebinar) or by scanning the QR code.
 * Click on the “Register here” link.
 * After registering, you’ll receive a confirmation email containing information about the
 webinar along with instructions to join.
 
-![qr card](/images/qr-webinar.png)
+<QRcode imgSrc="/images/qr-webinar.png" link="http://qr.ucsfhealth.org/FTCwebinar"/>
+
+<script>
+    import QRcode from "../components/QRcode.svelte"
+</script>

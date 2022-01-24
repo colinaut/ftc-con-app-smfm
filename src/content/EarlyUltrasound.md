@@ -4,6 +4,8 @@ title: 'Window of Opportunity: Potential Payoff of Early Fetal Ultrasound'
 
 # {title}
 
+<VideoEmbed videoId="ymQaOiE79zQ" />
+
 ## Leaders In Genomics And Precision Based In Utero Diagnosis And Care
 
 Since its founding in 1981, the UCSF Fetal Treatment Center has expanded its vision to incorporate dynamic new methods for fetal diagnosis and treatment based on the emerging fields of maternal-fetal genetics and precision medicine.
@@ -50,3 +52,7 @@ translucency (NT) ultrasound
 * The Fetal Treatment Center works collaboratively with the UCSF Pediatric Heart Center to guide prenatal care for pregnancies complicated by congenital heart disease.
 * Our large patient volume and the diversity of cases we see give us a depth and breadth of experience that help us provide the best care possible.
 * UCSF Benioff Children’s Hospitals are consistently ranked among the best in the nation in neonatology according to U.S. News & World Report’s annual rankings of children’s hospitals. Babies delivered here have immediate access to more than 150 pediatric experts in 50 specialties.
+
+<script>
+    import VideoEmbed from "../components/VideoEmbed.svelte"
+</script>

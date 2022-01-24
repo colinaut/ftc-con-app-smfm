@@ -1,5 +1,6 @@
 <script>
   import { slide, fly } from "svelte/transition";
+  import * as animateScroll from "svelte-scrollto";
   import Header from "./components/Header.svelte";
   import Hydrops from "./content/Hydrops.md";
   import HeartAndBrain from "./content/HeartAndBrain.md";
@@ -82,19 +83,17 @@
   };
 
   const changeSection = (Section, id = false) => {
-    console.log("change section", id);
+    // console.log("change section", id);
     CurrentSection = Section;
-    console.log(
-      "🚀 ~ file: App.svelte ~ line 87 ~ changeSection ~ CurrentSection",
-      CurrentSection
-    );
     // this shows active nav item unless false
     activeId = id;
   };
-  const sectionLinkClick = (e) => {
-    console.log(e.detail);
+
+  const promoCardClick = (e) => {
     changeSection(e.detail.Section);
+    // console.log(e.detail);
     if (e.detail.id) activeId = e.detail.id;
+    animateScroll.scrollToTop();
   };
 </script>
 
@@ -116,7 +115,7 @@
   <CardNav cards={research} {activeId} on:click={navClick} />
   <Main>
     <Section>
-      <!-- TODO get Fly working -->
+      <!-- TODO: get Fly working -->
       <div
         class="section"
         in:fly={{ duration: 400, delay: 1400, x: -1000 }}
@@ -124,7 +123,7 @@
       >
         <svelte:component
           this={CurrentSection}
-          on:sectionLinkClick={sectionLinkClick}
+          on:promoCardClick={promoCardClick}
         />
       </div>
     </Section>
