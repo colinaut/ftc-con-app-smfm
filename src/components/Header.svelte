@@ -25,7 +25,7 @@
       src="images/smfm-logo.png"
       alt="Society for Maternal Fetal Medicine"
     />
-    <span class="year">2021 Annual Meeting</span>
+    <span class="year">2022 Annual Meeting</span>
   </div>
 </header>
 

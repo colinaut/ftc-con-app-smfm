@@ -1,9 +1,10 @@
 <script>
   import { slide, fly } from "svelte/transition";
+  import * as animateScroll from "svelte-scrollto";
   import Header from "./components/Header.svelte";
   import Hydrops from "./content/Hydrops.md";
   import HeartAndBrain from "./content/HeartAndBrain.md";
-  import IUERTtrial from "./content/IUERTtrial.md";
+  import IUERT from "./content/IUERTtrial.md";
   import ATM from "./content/ATM.md";
   import Exome from "./content/Exome.md";
   import More from "./content/More.md";
@@ -18,9 +19,9 @@
     {
       id: 1,
       component: Hydrops,
-      title: "Fetal Hydrops",
+      title: "Hydrops Fetalis",
       imgSrc: "images/hydrops-image.jpg",
-      btnurl: "https://fetus.ucsf.edu/hydrops-study",
+      btnurl: "https://fetus.ucsf.edu/hydrops-fetalis",
       btntext: "Learn More",
       active: false,
     },
@@ -54,7 +55,7 @@
     },
     {
       id: 5,
-      component: IUERTtrial,
+      component: IUERT,
       title: "In Utero Enzyme Replacement Therapy",
       imgSrc: "images/lab.jpg",
       btnurl: "https://fetus.ucsf.edu/utero-enzyme-replacement-therapy",
@@ -73,41 +74,40 @@
   ];
 
   let activeId = false;
-  let hero = true;
-
-  $: activeResearch = research.filter((section) => section.id === activeId)[0];
-
-  const logoClick = (e) => {
-    hero = true;
-    activeId = false;
-  };
+  let CurrentSection = Home;
 
   const navClick = (e) => {
     const id = e.detail.id;
-    if (activeId !== false && activeId === id) {
-      hero = true;
-      activeId = false;
-    } else {
-      hero = false;
-      activeId = e.detail.id;
-      research = research.map((section) => {
-        if (section.id === activeId) {
-          return { ...section, active: true };
-        }
-        return { ...section, active: false };
-      });
-    }
+    const navItem = research.find((item) => item.id == id);
+    changeSection(navItem.component, id);
+  };
+
+  const changeSection = (Section, id = false) => {
+    // console.log("change section", id);
+    CurrentSection = Section;
+    // this shows active nav item unless false
+    activeId = id;
+  };
+
+  const promoCardClick = (e) => {
+    changeSection(e.detail.Section);
+    // console.log(e.detail);
+    if (e.detail.id) activeId = e.detail.id;
+    animateScroll.scrollToTop();
   };
 </script>
 
-<Header on:click={logoClick} />
-{#if hero}
+<Header on:click={() => changeSection(Home)} />
+{#if CurrentSection === Home}
+  <!-- Show hero on home section only -->
   <div class="transition-wrapper" transition:slide={{ duration: 1000 }}>
-    <Hero
-      title="Leaders in genomics and precision-based in utero diagnosis and care"
-      src="/images/hero.jpg"
-      alt="Dr. Anita Moon Grady and patient"
-    />
+    <a href="/" on:click|preventDefault={() => changeSection(IUERT)}>
+      <Hero
+        title="In Utero Enzyme Replacement Therapy"
+        src="/images/FTC-exome-lrg.jpg"
+        alt="Close-up of lab equipment"
+      />
+    </a>
   </div>
 {/if}
 
@@ -115,23 +115,17 @@
   <CardNav cards={research} {activeId} on:click={navClick} />
   <Main>
     <Section>
-      {#if activeResearch}
-        <div
-          class="section"
-          in:fly={{ duration: 400, delay: 1400, x: -1000 }}
-          out:fly={{ duration: 400, delay: 1000, x: 1000 }}
-        >
-          <svelte:component this={activeResearch.component} />
-        </div>
-      {:else}
-        <div
-          class="section"
-          in:fly={{ duration: 400, delay: 1400, x: -1000 }}
-          out:fly={{ duration: 400, delay: 1000, x: 1000 }}
-        >
-          <Home />
-        </div>
-      {/if}
+      <!-- TODO: get Fly working -->
+      <div
+        class="section"
+        in:fly={{ duration: 400, delay: 1400, x: -1000 }}
+        out:fly={{ duration: 400, delay: 1000, x: 1000 }}
+      >
+        <svelte:component
+          this={CurrentSection}
+          on:promoCardClick={promoCardClick}
+        />
+      </div>
     </Section>
   </Main>
 </div>

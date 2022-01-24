@@ -8,6 +8,8 @@ title: In Utero Enzyme Replacement Therapy
 
 **Contact the study team:** [fetaltreatmentcenter@ucsf.edu](mailto:fetaltreatmentcenter@ucsf.edu) or 1-800-RX-FETUS
 
+<VideoEmbed videoId="DUdJIIjy4s8" />
+
 ## Overview
 
 Lysosomal storage diseases (LSDs) are inborn errors of metabolism that are caused by a mutation coding for a critical enzyme. This causes an abnormal build-up of toxic materials throughout the body. LSDs cause severe multi-organ damage, including neurodegeneration, cardiac problems, impaired growth, and enlarged spleen and liver. While each LSD is a rare disease, collectively LSDs affect 1 in 5000 births.
@@ -53,3 +55,7 @@ We will enroll 10 women with a fetus diagnosed with one of the included LSDs, ba
 **Principal Investigator:** Tippi C. MacKenzie, MD
 
 **Sponsors:** [UCSF Center for Maternal Fetal Precision Medicine](https://mfprecision.ucsf.edu/)
+
+<script>
+    import VideoEmbed from "../components/VideoEmbed.svelte"
+</script>
