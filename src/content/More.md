@@ -12,9 +12,7 @@ This mixture of experimental and clinical research has been a constant feature o
 
 ## Current Clinical Trials
 
-- [Clinical Utility of Prenatal Whole Exome Sequencing](https://clinicaltrials.ucsf.edu/trial/NCT03482141)
 - [Fetal Intervention for Aortic Stenosis and Evolving Hypoplastic Left Heart Syndrome](https://clinicaltrials.gov/ct2/show/NCT01736956)
-- [Hydrops: Diagnosing & Redefining Outcomes With Precision Study](https://clinicaltrials.ucsf.edu/trial/NCT03412760)
 - [In Utero Enzyme Replacement Therapy for Lysosomal Storage Diseases (IUERT)](https://clinicaltrials.gov/ct2/show/NCT04532047)
 - [In Utero Hematopoietic Stem Cell Transplantation for Alpha-thalassemia Major (ATM)](https://clinicaltrials.gov/ct2/show/NCT02986698)
 - [Prospective Randomized Clinical Trial of Fetal Atrial Flutter & Supraventricular Tachycardia Therapy (FAST RCT)](https://clinicaltrials.gov/ct2/show/NCT02624765)

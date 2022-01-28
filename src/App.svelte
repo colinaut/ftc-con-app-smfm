@@ -104,13 +104,13 @@
     <a href="/" on:click|preventDefault={() => changeSection(IUERT)}>
       <Hero
         title="In Utero Enzyme Replacement Therapy"
+        subtitle="Learn about the Phase 1 Clinical Trial"
         src="/images/FTC-exome-lrg.jpg"
         alt="Close-up of lab equipment"
       />
     </a>
   </div>
 {/if}
-
 <div class="content">
   <CardNav cards={research} {activeId} on:click={navClick} />
   <Main>

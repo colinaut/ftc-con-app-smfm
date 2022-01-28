@@ -46,7 +46,9 @@ Through the UCSF laboratory, our geneticists and genomic medicine specialists ha
 
 <div class="bios">
 
-### Kyle Heraty
+### Kyle Heraty, LCGC
+
+Genetic Counselor
 
 ### Billie Lianoglou, MS, LCGC
 
@@ -78,7 +80,7 @@ Perinatologist and Clinical Geneticist
 
 </div>
 
-For more information contact the Fetal Treatment Center.
+_For more information contact the Fetal Treatment Center._
 
 <style>
     .bios p {

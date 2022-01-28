@@ -33,17 +33,11 @@ The diagnosis and management of hydrops is complex. UCSF brings extensive experi
 * **Personalized genomics:** Genomic sequencing is available through the UCSF Genomic Medicine Laboratory. The lab has extensive experience with genes involved in the development of hydrops, and the details of every case are reviewed by an expert, multidisciplinary panel. We provide personalized genetic counseling to discuss the sequencing and how the results affect current and future pregnancies.
 * **Detailed prenatal imaging:** Internationally recognized experts at UCSF use advanced imaging tools to identify subtle clues that may reveal the reason for hydrops. This imaging is performed with prenatal ultrasound, and in many cases with MRI as well.
 * State-of-the-art fetal procedures: The full range of clinically indicated fetal procedures for hydrops is offered by experienced clinicians in the Fetal Treatment Center at UCSF, including fetal shunts, laser therapy, and in utero transfusions. We also offer access to clinical trials of novel fetal therapies such as in utero stem cell transplantation and enzyme replacement therapy. A multidisciplinary team of fetal medicine and surgical experts reviews every case to determine the best approach for each pregnancy.
-* N**ovel fetal therapies:** Dr. Tippi MacKenzie oversees clinical trials of in utero stem cell transplantation (Clinical Trial: [NCT02986698](https://clinicaltrials.gov/ct2/show/NCT02986698)) for alpha thalassemia major and enzyme replacement therapy (Clinical Trial: [NCT04532047](https://clinicaltrials.gov/ct2/show/NCT04532047)) for a group of genetic diseases referred to as inborn errors of metabolism. The goal of these phase 1 clinical trials is to treat genetic diseases in utero to improve their outcomes after birth.
+* **Novel fetal therapies:** Dr. Tippi MacKenzie oversees clinical trials of in utero stem cell transplantation (Clinical Trial: [NCT02986698](https://clinicaltrials.gov/ct2/show/NCT02986698)) for alpha thalassemia major and enzyme replacement therapy (Clinical Trial: [NCT04532047](https://clinicaltrials.gov/ct2/show/NCT04532047)) for a group of genetic diseases referred to as inborn errors of metabolism. The goal of these phase 1 clinical trials is to treat genetic diseases in utero to improve their outcomes after birth.
 * **Comprehensive perinatal care:** Our team of experts spans many prenatal and pediatric subspecialties and prepares individualized, comprehensive perinatal care plans for each patient. These plans may include imaging surveillance during pregnancy, fetal interventions, special considerations for delivery, subspecialists needed at delivery, neonatal treatments, and more.
 * **Mental health and emotional support:** Patients have access to Social Work and Palliative Care providers, who are specially trained to care for families with difficult pregnancies and perinatal loss.
 
 ![Dr Teresa Sparks with patient](/images/dr-teresa-sparks-with-patient.jpg)
-
-<style>
-    .bios p {
-        margin: var(--space-xxs) 0;
-    }
-</style>
 
 <script>
     import VideoEmbed from '../components/VideoEmbed.svelte';

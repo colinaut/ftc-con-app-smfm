@@ -69,7 +69,7 @@
     color: var(--white);
   }
   .hero-title {
-    margin: 0 20% 0 0;
+    margin: 0 0 0 0;
     font-weight: bold;
     font-size: var(--text-md);
     line-height: var(--leading-tight);
