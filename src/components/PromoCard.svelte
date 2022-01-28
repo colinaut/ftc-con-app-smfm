@@ -36,14 +36,6 @@
     margin: var(--space-lg) 0;
   }
 
-  .cardContent {
-    display: flex;
-  }
-
-  .img-block {
-    max-width: 33%;
-  }
-
   .img-block img {
     width: 100%;
     height: 100%;
@@ -53,7 +45,7 @@
   h3 {
     background: var(--light-navy);
     color: white;
-    padding: var(--space) var(--space-md);
+    padding: var(--space) var(--space);
     margin: 0;
     line-height: var(--leading-tight);
   }
@@ -64,5 +56,20 @@
 
   p {
     margin: 0 0 var(--space-sm);
+  }
+
+  .img-block {
+    height: 10rem;
+  }
+
+  @media (min-width: 576px) {
+    .cardContent {
+      display: flex;
+    }
+
+    .img-block {
+      max-width: 33%;
+      height: auto;
+    }
   }
 </style>
