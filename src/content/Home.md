@@ -14,6 +14,10 @@ The Fetal Treatment Center is proud of its 40-year legacy in fetal evaluation an
 
 **Nationally ranked pediatric specialties:** UCSF Benioff Children’s Hospitals are consistently ranked among the best in the nation by U.S. News & World Report’s annual survey of children’s hospitals. Babies delivered here have immediate access to more than 150 pediatric experts in 50 specialties.
 
+## Come see UCSF presenters and posters
+
+[UCSF Postgraduate Course and Poster Session Schedule](/pdfs/FTC2022_SMFM-posters schedule.pdf)
+
 <PromoCard Section={EarlyUltrasound} on:promoCardClick imgSrc="/images/anita-and-patient-ultrasound.jpg">
     <span slot="title">Window of Opportunity: Potential Payoff of Early Fetal Ultrasound</span>
     <span slot="description">Since its founding in 1981, the UCSF Fetal Treatment Center has expanded its vision to incorporate dynamic new methods for fetal diagnosis and treatment based on the emerging fields of maternal-fetal genetics and precision medicine.</span>
