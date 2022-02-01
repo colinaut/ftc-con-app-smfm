@@ -16,7 +16,7 @@ The Fetal Treatment Center is proud of its 40-year legacy in fetal evaluation an
 
 ## Come see UCSF presenters and posters
 
-[UCSF Postgraduate Course and Poster Session Schedule](/pdfs/FTC2022_SMFM-posters schedule.pdf)
+[UCSF Postgraduate Course and Poster Session Schedule](/pdfs/FTC2022_SMFM-posters-schedule.pdf)
 
 <PromoCard Section={EarlyUltrasound} on:promoCardClick imgSrc="/images/anita-and-patient-ultrasound.jpg">
     <span slot="title">Window of Opportunity: Potential Payoff of Early Fetal Ultrasound</span>
